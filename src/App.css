@@ -1,0 +1,39 @@
+#App {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tree {
+  position: relative;
+  background: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .85rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  width: 20vw;
+}
+
+ul{
+  list-style: none;
+  width: 100%;
+}
+
+li{
+  position: relative;
+  padding-top: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.li-header{
+  display : flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.li-header:hover{
+  background: rgba(0, 0, 0, 0.2);
+}
